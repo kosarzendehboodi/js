@@ -1,0 +1,612 @@
+@font-face {
+    font-family: pop;
+    src: url(font/popins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: rob;
+    src: url(font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: vib;
+    src: url(font/Great_Vibes/GreatVibes-Regular.ttf);
+
+
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.back {
+    background-image: url(images/bannerback-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* start code top menu*/
+.menuhead img {
+    margin-top: 10px;
+}
+
+.menu {
+    display: inline-flex;
+    width: 1100px;
+    justify-content: right;
+}
+
+
+.menu ul li {
+    font-weight: 800;
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-family: pop;
+
+}
+
+.navbar_icon {
+    display: inline-block;
+
+}
+
+.navbar_icon span {
+
+    display: flex;
+    justify-content: end;
+    border-top: 2px solid rgb(27, 27, 27);
+    width: 25px;
+    height: 4px;
+    transition: all 0.1s;
+    transform: .5s ease-in;
+}
+
+.navbar_icon:hover span:first-of-type {
+
+    width: 60%;
+    margin-left: auto;
+
+}
+
+.navbar_icon:hover span:last-of-type {
+    width: 60%;
+
+}
+
+.header {
+    background-image: url(images/banner-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+
+}
+
+
+/* start  media icon */
+.pictitle {
+    width: 44%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icons {
+    width: 55%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.icons ul li {
+    list-style: none;
+    margin: 5% 0;
+    margin-left: -50px;
+}
+
+.icons UL li:first-of-type {
+    margin-top: 25%;
+}
+
+.icons a {
+    color: rgb(34, 34, 34);
+    font-size: 18px;
+    font-weight: 300;
+
+    border-radius: 80px;
+    transition: all 0.4s;
+
+}
+
+.icons a:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    width: 48px;
+    height: 48px;
+    padding: 17px 20px;
+}
+
+.pictitle h1 {
+    font-family: vib;
+    font-size: 120px;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+}
+
+.pictitle p {
+    font-family: rob, sans-serif;
+    font-size: 24px;
+    margin: 10% 0px;
+
+}
+
+.pictitle a {
+
+    font-weight: 400;
+    font-family: rob, sans-serif;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid rgba(24, 24, 24, 0.933);
+    color: rgb(31, 31, 31);
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.pictitle a:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*start stylish code*/
+.stylishpic {
+    background-color: #212121;
+    height: 600px;
+
+}
+
+.titlestylish {
+    width: 50%;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titlestylish h2 {
+    font-family: vib;
+    font-size: 75px;
+    color: white;
+    font-weight: 400;
+}
+
+.titlestylish p {
+    font-family: rob, sans-serif;
+    color: white;
+    width: 90%;
+    display: inline-block;
+}
+
+.stylishpic img {
+    margin-top: 5%;
+    width: 49%;
+    vertical-align: middle;
+}
+
+/*start code for active image slider*/
+.select_slider {
+    margin-top: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.select_slider>div {
+    margin: 6px;
+    width: 12px;
+    height: 13px;
+    border-radius: 100%;
+    border: 2px solid rgb(32, 32, 32);
+    display: inline-block;
+}
+
+.select_slider>div:active {
+    background-color: #212121;
+}
+
+/* start code tta title*/
+.stylishtta {
+    background-color: white;
+}
+
+.tt0 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: rob, sans-serif;
+    margin: 15% 2%;
+}
+
+.stylishtta p {
+    width: 400px;
+    color: #363636;
+}
+
+.q01 h3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.q01 h2 {
+    font-size: 35px;
+}
+
+.q01:hover h3 {
+    color: rgb(241, 158, 186);
+
+
+
+}
+
+.q01:hover h2 {
+    width: 10%;
+    transform: rotateY(360deg);
+    transition: all 1.2s;
+}
+
+.graypic {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sportpic {
+    background-image: url(images/review-img-2.jpg);
+    background-size: cover;
+    width: 650px;
+    height: 70%;
+    margin: 0% auto;
+    margin-top: 20%;
+
+}
+
+.select_slider_gray {
+    margin-top: 20%;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.select_slider_gray>div {
+    margin: 6px;
+    width: 12px;
+    height: 13px;
+    border-radius: 100%;
+    border: 2px solid rgb(32, 32, 32);
+    display: inline-block;
+    margin-top: 65%;
+}
+
+.select_slider_gray>div:active {
+    background-color: #212121;
+}
+
+
+
+
+
+
+
+
+/* start fashion collection  code*/
+
+
+
+.ttlorm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.ttlorm p {
+    display: block;
+    font-family: pop;
+}
+
+.ttlorm h2 {
+    display: block;
+    font-family: vib;
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.clothwide {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.hov1 {
+    margin: 2.5%;
+
+}
+
+.hov1 h3 {
+    font-size: 30px;
+    font-family: rob, sans-serif;
+    font-weight: normal;
+    color: #2b2b2b;
+    transition: all 0.5s;
+}
+
+.hov1 p {
+    font-family: pop;
+    color: #363636;
+}
+
+.hov1:hover h3 {
+    color: #c14545;
+}
+
+.fash1 {
+    background-image: url(images/fash/team-1.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.fash2 {
+    background-image: url(images/fash/team-2.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.fash3 {
+    background-image: url(images/fash/team-3.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.fash4 {
+    background-image: url(images/fash/team-4.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.fash5 {
+    background-image: url(images/fash/team-5.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+
+}
+
+.fash6 {
+    background-image: url(images/fash/team-6.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.clo_6 {
+    background-color: white;
+    width: 100px;
+    z-index: 100;
+
+
+}
+
+.hov1:hover>.clo_6>div {
+    transform: scale(1.1);
+    transition: all .7s;
+
+}
+
+/* start code  part end fasghion */
+
+.lormfakebtn {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10%;
+
+}
+
+.lormfakebtn p {
+    font-family: pop;
+    font-size: 16px;
+    margin: 10% auto;
+    width: 65%;
+}
+
+.lormfakebtn a {
+    width: 150px;
+    min-height: auto;
+    padding: 15px 35px;
+    font-family: rob;
+    background-color: #c14545;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 24px;
+
+}
+
+
+
+
+.reveiw {
+    width: 100%;
+    background-color: #2b2b2b;
+    height: 600px;
+    color: white;
+    font-family: pop;
+}
+
+
+.grayrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.grayrow img {
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+.aboutdesginers p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutdesginers {
+    cursor: pointer;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    margin: 13% 3%;
+
+}
+
+.aboutdesginers img {
+    border-radius: 100%;
+    margin: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start form page*/
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 15% 0;
+}
+.titlesection{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+}
+.titlesection  p{
+    display: block;
+    font-family: vib;
+    font-size: 40px;
+    
+}
+.titlesection h3{
+    display: block;
+    font-family: pop;
+    
+
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    flex-wrap: wrap;
+}
+.textinput{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.c1>input{
+    
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid #dfdfdf;
+    background: transparent;
+    font-weight: normal;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 50px;
+    color: #212121;
+    font-size: 14px;
+    transition: border .9s ease;
+}
+.c1>input :focus-visible{
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.contantNow{
+    border: 1px;
+    padding: 15px 38px;
+    background-color: #212121;
+    color: aliceblue;
+    width: 10%;
+    text-align:center ;
+    border-radius: 25px;
+    font-family: rob;
+    transition: all 1s;
+    cursor: pointer;
+    justify-content: center;
+    margin: 5% auto;
+}
+.contantNow:hover{
+    background-color: #c14545;
+}
