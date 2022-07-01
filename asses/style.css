@@ -1,0 +1,119 @@
+/*respansive*/
+/*body*/
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .typeof {
+        margin-top: 4%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .offeredservices {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .warp {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .gilber {
+        margin-top: 0%;
+    }
+
+
+
+    .rowfilter {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .plans>* {
+        width: 15%;
+        padding: 10px 3px;
+
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .picLatest {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .latestTitle {
+        background-color: #c9cef567;
+        margin: 2% 0;
+    }
+
+    .colorfooter2 {
+        background-color: #02051fad;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .colorfooter2 {
+        display: flex;
+    }
+
+    .colorfooter2 {
+        justify-content: center;
+    }
+
+    .colorfooter2 {
+        flex-direction: column;
+    }
+    .backLatest{
+        background-color: #ffffff;
+    }
+
+    #about > .container > img{
+        margin-right: 0;
+    }
+
+}
